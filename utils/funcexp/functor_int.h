@@ -656,6 +656,8 @@ class Func_time_to_sec : public Func_Int
 
   int64_t getIntVal(rowgroup::Row& row, FunctionParm& fp, bool& isNull,
                     execplan::CalpontSystemCatalog::ColType& op_ct);
+  execplan::IDB_Decimal getDecimalVal(rowgroup::Row& row, FunctionParm& fp, bool& isNull,
+                                      execplan::CalpontSystemCatalog::ColType& op_ct);
 };
 
 /** @brief Func_microsecond class
