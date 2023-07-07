@@ -24,7 +24,6 @@
 #include <cstdlib>
 #include <string>
 #include <sstream>
-#define __STDC_LIMIT_MACROS
 #include <stdint.h>
 using namespace std;
 
